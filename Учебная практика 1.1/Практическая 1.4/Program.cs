@@ -1,4 +1,5 @@
-Задание 1.
+﻿//Задание 1.
+/*
 using System;
 
 class Program
@@ -15,8 +16,10 @@ class Program
         Console.WriteLine($"Произведение натуральных чисел, кратных трём и не превышающих {n}, равно {product}");
     }
 }
+*/
 
-Задание 2.
+//Задание 2.
+/*
 using System;
 using System.IO;
 
@@ -43,7 +46,10 @@ class Program
         Console.WriteLine("Сумма положительных элементов: " + sum);
     }
 }
-Задача 3.
+*/
+
+//Задание 3.
+/*
 using System;
 using System.IO;
 
@@ -88,7 +94,10 @@ class Program
         }
     }
 }
-Задача 4.
+*/
+
+//Задание 4.
+/*
 using System;
 using System.IO;
 class Program
@@ -113,8 +122,11 @@ class Program
             Console.WriteLine($"Количество одинаковых рядом стоящих чисел: " + count);
         }
     }
+}
+*/
 
-Задание 5.
+//Задание 5.
+/*
 using System;
 using System.Collections.Generic;
 using System.Security.Cryptography;
@@ -143,11 +155,12 @@ public class Program
         {
             Console.WriteLine("Точка не принадлежит заштрихованной области");
         }
-       
-
     }
 }
-Задание 6.
+*/
+
+//Задание 6.
+/*
 using System;
 
 class Program
@@ -176,4 +189,4 @@ class Program
         }
     }
 }
-
+*/ 

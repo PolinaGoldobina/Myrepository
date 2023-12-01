@@ -1,20 +1,20 @@
-У.П. 2 
-Задание 1.
+﻿//Задание 1.
+/*
 using System;
 class Program
 {
     static void Main()
     {
         int[] numbers = new int[100];
-        
-        int value = 100; 
-        
+
+        int value = 100;
+
         for (int i = 0; i < numbers.Length; i++)
         {
             numbers[i] = value;
-            value -= 3; 
+            value -= 3;
         }
-        
+
         Console.WriteLine("Полученная коллекция:");
         foreach (int number in numbers)
         {
@@ -22,8 +22,10 @@ class Program
         }
     }
 }  
+*/
 
-Задание 2.
+//Задание 2.
+/*
 using System;
 class Program
 {
@@ -44,8 +46,10 @@ class Program
         }
     }
 }
+*/
 
-Задание 3.
+//Задание 3.
+/*
 using System;
 
 class Program
@@ -87,7 +91,10 @@ class Program
         }
     }
 }
-Задание 4. 
+*/
+
+//Задание 4.
+/*
 using System;
 class Program
 {
@@ -127,7 +134,10 @@ class Program
         return averageTemperatures;
     }
 }
-Задание 5.
+*/
+
+//Задание 5.
+/*
 using System;
 using System.Collections.Generic;
 class Program
@@ -208,4 +218,4 @@ class Program
         return sum / count;
     }
 }
-    
+*/ 

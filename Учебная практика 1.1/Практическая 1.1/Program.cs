@@ -1,5 +1,5 @@
-Задание 1. 
-
+﻿//Задание 1. 
+/*
 using System;
 class Program
 {
@@ -11,6 +11,7 @@ class Program
         {
             nums[i] = rndl.Next();
         }
+
         int minElement = nums[0];
         int minIndex = 0;
         for (int i = 1; i < nums.Length; i++)
@@ -21,11 +22,14 @@ class Program
                 minIndex = i;
             }
         }
+
         Console.WriteLine("Номер минимального элемента: " + minIndex);
     }
-}
-
-Задание 2. 
+} 
+*/
+    
+//Задание 2
+/*
 using System;
 using System.Collections.Generic;
 
@@ -35,7 +39,7 @@ class Program
     {
         List<int> numbers = new List<int>();
         int i;
-       
+
         do
         {
             Console.Write("Введите число (для завершения введите 0): ");
@@ -53,7 +57,7 @@ class Program
             sum += number;
             product *= number;
         }
-        
+
         float average = (float)sum / numbers.Count;
 
         Console.WriteLine("Сумма чисел: " + sum);
@@ -61,8 +65,10 @@ class Program
         Console.WriteLine("Среднее: " + average);
     }
 }
+*/
 
-Задание 3. 
+//Задание 3
+/*
 using System;
 using System.Collections.Generic;
 
@@ -108,9 +114,10 @@ class Program
         Console.WriteLine("Самый длинный элемент: " + longest);
     }
 }
+*/
 
-
-Задание 4.
+//Задание 4
+/*
 using System;
 
 class Program
@@ -139,7 +146,10 @@ class Program
         }
     }
 }
-Задание 5. 
+*/
+
+//Задание 5
+/*
 using System;
 
 class Program
@@ -148,16 +158,11 @@ static void Main()
 {
 Console.Write("Введите строку: ");
 string input = Console.ReadLine();
-
 string[] words = input.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries); // разбиваем строку на слова
-
 int wordCount = words.Length; 
-
 string result = "Start " + input + " End"; 
-
 Console.WriteLine("Количество слов: " + wordCount);
 Console.WriteLine("Результат: " + result);
 }
 }
-
-
+*/

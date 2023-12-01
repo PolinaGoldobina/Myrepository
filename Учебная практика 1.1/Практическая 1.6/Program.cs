@@ -1,4 +1,5 @@
-Задание 1. 
+﻿//Задание 1.
+/*
 using System;
 using System.IO;
 
@@ -6,7 +7,7 @@ class Program
 {
     static void Main()
     {
-        string[] words = File.ReadAllLines("numsTask1 (2).txt");
+        string[] words = File.ReadAllLines("numsTask1.txt");
         foreach (string word in words)
         {
             if (word.Length % 2 != 0)
@@ -16,7 +17,10 @@ class Program
         }
     }
 }
-Задание 2.
+*/
+
+//Задание 2.
+/*
 using System;
 using System.IO;
 using System.Text;
@@ -25,16 +29,18 @@ class Program
 {
     static void Main()
     {
-        string[] words = File.ReadAllLines("numsTask2 (2).txt");
+        string[] words = File.ReadAllLines("numsTask2.txt");
 
         // Составляем одну длинную строку
         string result = string.Join(" ", words);
         Console.WriteLine(result);
     }
 }
-Задание 3.
-using System;
+*/
 
+//Задание 3.
+/*
+using System;
 class Program
 {
     static void Main(string[] args)
@@ -54,10 +60,11 @@ class Program
         Console.ReadLine();
     }
 }
+*/
 
-Задание 4.
+//Задание 4.
+/*
 using System;
-
 class Program
 {
     static void Main(string[] args)
@@ -96,9 +103,11 @@ class Program
         Console.WriteLine($"Сумма чисел, делящихся на {a} нацело: {sum}");
     }
 }
-Задание 5.
-using System;
+*/
 
+//Задание 5.
+/*
+using System;
 class Program
 {
     static void Main(string[] args)
@@ -109,7 +118,6 @@ class Program
         int[,] matrix = { { 1, 0, 1, 1 }, { 0, 1, 0, 1 }, { 1, 1, 0, 0 } }; // исходная матрица
         int[,] newMatrix = new int[n, m + 1];
 
-        // Копируем элементы из исходной матрицы в новую матрицу
         for (int i = 0; i < n; i++)
         {
             for (int j = 0; j < m; j++)
@@ -118,7 +126,6 @@ class Program
             }
         }
 
-        // Делаем количество единиц в каждой строке четным
         for (int i = 0; i < n; i++)
         {
             int count = 0; // количество единиц в текущей строке
@@ -128,7 +135,6 @@ class Program
                     count++;
             }
 
-            // Добавляем элементы в новый столбец
             if (count % 2 == 0)
                 newMatrix[i, m] = 0; // если количество единиц уже четное
             else
@@ -145,7 +151,10 @@ class Program
         }
     }
 }
-Задание 6.
+*/
+
+//Задание 6.
+/*
 using System;
 using System.Collections.Generic;
 
@@ -175,7 +184,6 @@ class Program
                 negativeArray.Add(number);
             }
         }
-
         Console.WriteLine("Исходный массив:");
         foreach (double number in sourceArray)
         {
@@ -197,3 +205,4 @@ class Program
         Console.ReadKey();
     }
 }
+*/

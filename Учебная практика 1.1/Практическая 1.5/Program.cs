@@ -1,4 +1,5 @@
-Задание 1.
+﻿//Задание 1.
+/*
 using System;
 using System.IO;
 
@@ -43,8 +44,10 @@ class Program
         return product;
     }
 }
-    
-Задание 2.
+*/
+
+//Задание 2.
+/*
 using System;
 using System.IO;
 using System.Linq;
@@ -66,7 +69,10 @@ class Program
         File.WriteAllText(fileName, result);
     }
 }
-Задание 3.
+*/
+
+//Задание 3.
+/*
 using System;using System.IO;
 using System.Linq;
 class Program
@@ -87,7 +93,10 @@ class Program
         Console.WriteLine($"Среднее арифметическое элементов до минимального числа: {average}");
     }
 }
-Задание 4.
+*/
+
+//Задание 4.
+/*
 using System;
 using System.IO;
 
@@ -108,7 +117,6 @@ class Program
                 maxNumber = number;
             }
         }
-
         // Вычисление суммы элементов, отличающихся от максимального на 1
         foreach (string line in lines)
         {
@@ -121,7 +129,10 @@ class Program
         Console.WriteLine("Сумма элементов, отличающихся от максимального на 1: " + sum);
     }
 }
-Задание 5.
+*/
+
+//Задание 5.
+/*
 using System;
 using System.IO;
 using System.Linq;
@@ -160,3 +171,4 @@ class Program
         Console.WriteLine($"Среднее арифметическое чисел между минимальным и максимальным элементами: {average}");
     }
 }
+*/

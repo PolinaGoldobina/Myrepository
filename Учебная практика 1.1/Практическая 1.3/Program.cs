@@ -1,5 +1,5 @@
-УП 1.3 
-Задание 1.
+﻿//Задание 1.
+/*
 using System; 
 using System.IO; 
  
@@ -38,7 +38,10 @@ class Program
         File.WriteAllLines("output.txt", tickets); 
     } 
 }
-Задание 2.
+*/
+
+//Задание 2.
+/*
 using System;
 using System.IO;
 
@@ -61,7 +64,10 @@ class Program
         File.WriteAllText(filePath, result);
     }
 }
-Задание 3.
+*/
+
+//Задание 3.
+/*
 using System;
 using System.IO;
 
@@ -69,7 +75,7 @@ class Program
 {
     static void Main()
     {
-        string filePath = "Ввод.txt";
+        string filePath = "input.txt";
 
         using (StreamReader sr = new StreamReader(filePath))
         {
@@ -80,7 +86,7 @@ class Program
 
             int maxArea = 0;
 
-            using (StreamWriter sw = new StreamWriter("Вывод.txt"))
+            using (StreamWriter sw = new StreamWriter("output.txt"))
             {
                 for (int i = 0; i < height.Length; i++)
                 {
@@ -101,3 +107,4 @@ class Program
         }
     }
 }
+*/
